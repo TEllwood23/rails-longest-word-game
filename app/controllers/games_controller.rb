@@ -5,5 +5,7 @@ class GamesController < ApplicationController
   end
 
   def score
+    @score = params[:score]
+    raise
   end
 end
