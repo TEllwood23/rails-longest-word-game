@@ -3,3 +3,8 @@
   <% @letters.each do |letter| %>
     <%= letter.upcase %>
   <% end %>
+
+<form action="/score" data-turbo="false">
+  <input type="text" name="score" placeholder = "Enter your word here!">
+  <input type="submit" value="Enter work">
+</form>
